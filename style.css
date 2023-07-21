@@ -545,6 +545,26 @@ section{
     box-shadow: var(--neon-box-shadow);
 }
 
+.skill-bar .bar .c{
+    width: 80%;
+    animation: c 1s;
+}
+
+.skill-bar .bar .Java{
+    width: 75%;
+    animation: java 2s;
+}
+
+.skill-bar .bar .dsa{
+    width: 85%;
+    animation: dsa 3s;
+}
+
+.skill-bar .bar .python{
+    width: 60%;
+    animation: python 4s;
+}
+
 .skill-bar .bar .html{
     width: 72%;
     animation: html 2s;
@@ -843,6 +863,42 @@ footer a i{
     }
     80%{
         border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    }
+}
+
+@keyframes c {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 77%;
+    }
+}
+
+@keyframes dsa {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
     }
 }
 
